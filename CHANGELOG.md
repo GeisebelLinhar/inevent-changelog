@@ -2,7 +2,121 @@
 
 This change log was created on January 22, 2021 and only entries after this date will be registered.
 
-## Version 16.3
+## Version 16.4
+### October 31, 2022
+
+#### Added
+- Using same encryption as the live studio for rancher;
+- Merge remote-tracking branch 'origin/INWEB-1665-add-an-option-to-download-onl';
+- Added RBAC security landing page;
+
+#### Fixed
+- Fixed webhook-jobstatus.php webhook file;
+
+### October 28, 2022
+
+#### Added
+- Added calculator proposal validity;
+
+### October 26, 2022
+
+#### Added
+- Added MS Dynamics landing page;
+- Updated FR translations;
+
+### October 25, 2022
+
+#### Added
+- Replace understroke with underscore;
+- Improvement for always update temp mux info on live;
+
+#### Fixed
+- Fixed trim mode breaking large video uploads;
+
+### October 21, 2022
+
+#### Added
+- Added audio oscillator as local recording timing function;
+- Added 'Detect Automatically' option when adding someone to attendees list;
+- Added 'waitlist' flag on event.applicant API Model to distinguish between pending users on tickets and actual waitlist users;
+- Added functionality that if company admins add themselves to events, they should be added as admins automatically;
+- Added keyboard navigation and possibility to send files with telc enter and space on "upload files";
+- Fixed when manual payment parameter is empty when using discount;
+- Fixed errors when using a pre-recorded video as Welcome cover;
+- Fixed when news feed notification is cleared when going to my-agenda.php;
+- Fixed when the Virtual Lobby is setted Overlay Contents, then you search an activity doesn’t exist, all the content shakes;
+- Fixed Filter Tag Box not appearing completely;
+- Added high contrast option in Virtual Lobby;
+
+#### Fixed
+- Fixed big screen broken layout;
+
+### October 20, 2022
+
+#### Added
+- Added government agencies proper copy;
+
+#### Fixed
+- Fixed pre-recorded static not loading properly for images;
+
+### October 19, 2022
+
+#### Added
+- Added option to sort people in lists by registration date;
+- Added option to disable animations in Virtual Lobby;
+
+#### Fixed
+- Fixed excel stripping wrong characters;
+- Fixed On Demand content displaying misleading popup when content is not video;
+- Fixed display/creation of exhibitors when using the platform in French;
+
+### October 17, 2022
+
+#### Added
+- Updated PT translations;
+
+### October 16, 2022
+
+#### Fixed
+- Fixed 'requiredColumns' function checking the wrong referenceID;
+
+### October 13, 2022
+
+#### Added
+- Improvement in experience center first section;
+- Added global extensions for image upload across the platform;
+- Fixed error when a payment was approved, the admin was logged out of the platform.;
+- Fixed error on create activity tracks with the French language;
+- Fixed a tag error that it was possible to complete a registration without selecting a tag even though it was required;
+- Fixed warning message when clicking on edit and after clicking on end in company.php#events page;
+- Fixed the dedicated activities menu on mobile;
+- Fixed icons size;
+- Added Trim option before uploading a video as pre-recorded;
+
+### October 12, 2022
+
+#### Added
+- Upgraded jquery-ui library to avoid XSS attacks;
+- Drop 300 from isCompanyLegalEnterprise;
+- Added check to differentiate check-logs on **Virtual Lobby** from actual check-in Collectors for in-person;
+- App show the server region;
+
+#### Fixed
+- Strip forbidden prefixes for Excel to avoid CSV Injection;
+- Fixed XSS vulnerability on iframe-inevent.php and fixed '%5C' infinite redirect on query string;
+
+### October 11, 2022
+
+#### Added
+- Updated PT translations;
+- Updated ES translations;
+
+### October 7, 2022
+
+#### Fixed
+- Fixed .ics template file to decode HTML entities;
+- Adjusted PT translations;
+
 ### October 6, 2022
 
 #### Added
